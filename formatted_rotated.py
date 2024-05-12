@@ -2,7 +2,7 @@
 
 import segno
 
-qrcode = segno.make_qr("Hello, World")
+qrcode = segno.make_qr("Scan Me")
 qrcode_rotated = qrcode.to_pil(
     scale=5,
     light="violet",
